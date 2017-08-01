@@ -43,4 +43,4 @@ for(i in 1:nrow(combos)) {
   
 }
 
-dev.print(pdf, file.path(outdir, "Occurrence_map.pdf"))
+dev.print(pdf, "Occurrence_map.pdf")
